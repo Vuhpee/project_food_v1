@@ -1,4 +1,5 @@
-#this program gets the food data from openfoodfacts DB using their API and records it to SQLite DB
+# This program gets the food data from openfoodfacts DB using their API and records it to SQLite DB
+# Prepared for CS50x course final project
 import sqlite3
 from requests import get
 import urllib3
