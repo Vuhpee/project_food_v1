@@ -29,6 +29,19 @@ The application allows users to:
 - Aggregated macro calculations
 - JavaScript data export for lightweight visualization
 
+  ---
+
+## Data Model
+
+Tables:
+
+- **Brand**
+- **Product** (linked to Brand)
+- **Consumed** (linked to Product, stores portion-based intake)
+
+The schema ensures normalized storage and prevents duplication of product records while maintaining consumption history.
+
+
 ---
 
 ## Tech Stack
